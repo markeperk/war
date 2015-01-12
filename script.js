@@ -104,7 +104,7 @@ $(document).ready(function() {
 			cards_player_1.shift() && cards_player_2.shift();
 		}
 		else if (card1.number === card2.number) {
-			cards_player_1.push(card1) && cards.player_2.push(card2);
+			cards_player_1.push(card1) && cards_player_2.push(card2);
 			cards_player_1.shift() && cards_player_2.shift();
 		}
 
